@@ -1,0 +1,926 @@
+<head>
+    <title>
+        Superb Steel International
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+        
+    <style>
+        /* Reset */
+
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /*---My-styles----*/
+
+        
+        /*---------------------------
+        ------------header-----------
+        ---------------------------*/
+
+        .header .col-left
+        {
+            float: left;
+            width: 30%;
+            margin: 0px;
+            margin-left: 70px;
+        }
+
+        .header .col-left img
+        {
+            width: 80%;
+            margin-top: 10px;
+            margin-left: 90px;
+        }
+
+        .header .col-right
+        {
+            float: right;
+            width: 70%;
+            text-align: right;
+            margin: 0px;
+        }
+
+        .header ul
+        {
+            margin: 0px;
+            position: absolute;
+            top: 70px;
+            right: 220px;
+        }
+
+        .header li
+        {
+            list-style: none;
+            display: inline-block;
+            margin-left: 100px;
+            font-family: 'Roboto Slab', serif;
+            letter-spacing: 5px;
+        }
+
+        .header a
+        {
+            text-decoration: none;
+            color: black;
+            padding: 12px;
+            border-bottom: 2px solid black;
+            border-top: 2px solid transparent;
+            border-right:  2px solid transparent;
+            border-left:  2px solid transparent;
+        }
+
+        .header .active
+        {
+            padding: 12px;
+            border: 2px solid black;
+        }
+
+        .header
+        {
+            max-width: 1920px;
+            margin: auto;
+        }
+
+        /*---------------------------
+        ------------Main-------------
+        ---------------------------*/
+
+        .custom-heading
+        {
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            margin-bottom: 75px;
+            border-top: 2px solid #e0dddd;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+       
+        .main span
+        {
+            background-color: white;
+            padding: 0px 40px;
+            margin-top:-27px;
+            display: inline-block;
+        }
+
+        .main h1
+        {
+            font-size: 50px;
+            font-weight: bold;
+        }
+                
+        .info
+        {
+            width: 80%;
+            margin: auto;
+            margin-bottom: 115px;
+            font-family: 'Roboto Slab', serif;
+        }
+        
+        .info .left
+        {
+            float: left;
+            width: 60%;
+        }
+        
+        .info .left h1
+        { 
+            color: black; 
+            margin-top: 220px;
+        }
+        
+        .info .right
+        {
+            float: right; 
+            width: 30%; 
+            border: 10px solid black; 
+            font-size: 23px;
+        }
+        
+        .info .right p
+        {
+            display: inline-block;
+        }
+        
+        .info .right .ico
+        {
+            width: 7%; 
+            display: inline-block; 
+            margin-top: 65px; 
+            margin-left: 25px; 
+            margin-right: 20px;
+        }
+        
+        .info .right .social
+        {
+            text-align: center;
+            margin: 60px 0px 60px 0px;
+        }
+        
+        .info .right .social .media
+        {
+            border: 10px solid black; 
+            border-radius: 20px;
+        }
+        
+        @media screen and (max-width:1850px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 200px;
+            }
+            
+            .info .right
+            {
+                font-size: 22px;
+            }
+
+        }
+
+        @media screen and (max-width:1800px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 190px;
+            }
+            
+            .info .left
+            {
+                width: 60%;
+            }
+
+            .info .right
+            {
+                width: 35%;
+            }
+
+        }
+
+        @media screen and (max-width:1750px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 180px;
+            }
+            
+            .info .right
+            {
+                width: 36%;
+            }
+        }
+
+        @media screen and (max-width:1700px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 170px;
+            }
+        }
+
+        @media screen and (max-width:1650px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 160px;
+            }
+
+            .main h1
+            {
+                font-size: 45px;
+            }
+
+        }
+
+        @media screen and (max-width:1600px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 150px;
+            }
+        }
+
+        @media screen and (max-width:1550px)
+        {
+            .header ul
+            {
+                top: 55px;
+                right: 140px;
+            }
+
+            .header li
+            {
+                margin-left: 70px;
+                letter-spacing: 5px;
+            }
+            
+            .info .left
+            {
+                width: 60%;
+            }
+
+            .info .right
+            {
+                width: 37%;
+            }
+
+            .info .left h1
+            { 
+                font-size: 40px;
+            }
+            
+            .main h1
+            {
+                font-size: 35px;
+            }
+            
+        }
+
+
+        @media screen and (max-width:1500px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 130px;
+            }
+
+            .header li
+            {
+                margin-left: 60px;
+                letter-spacing: 5px;
+                font-size: 15px;
+            }
+            
+            .info .right
+            {
+                width: 38%;
+            }
+            
+            .info .right
+            {
+                font-size: 21px;
+            }
+        }
+
+        @media screen and (max-width:1400px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 120px;
+            }
+
+            .header li
+            {
+                margin-left: 50px;
+                letter-spacing: 5px;
+            }
+
+            
+            .info .left
+            {
+                width: 50%;
+            }
+            
+            .info .right
+            {
+                width: 43%;
+            }
+            
+            .main h1
+            {
+                font-size: 40px;
+            }
+
+        }
+
+        @media screen and (max-width:1300px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 110px;
+            }
+
+            .header li
+            {
+                margin-left: 50px;
+                letter-spacing: 4px;
+                font-size: 15px;
+            }
+            
+            .info .left
+            {
+                width: 40%;
+            }
+
+            .info .right
+            {
+                width: 43%;
+            }
+        }
+
+        @media screen and (max-width:1250px)
+        {
+            .header ul
+            {
+                display: block;
+                position: relative;
+                top: 0;
+                right: 0;
+                text-align: center;
+            }
+
+            .header li
+            {
+                margin-right: 40px;
+                margin-left: 40px;
+                letter-spacing: 4px;
+                font-size: 17px;
+            }
+
+            .header .col-left
+            {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 60px;
+                margin-left: 0px;
+            }
+
+            .header .col-left img
+            {
+                width: 38%;
+                margin-left: 0px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 60px;
+            }
+            
+            .info .left
+            {
+                width: 40%
+            }
+
+            .info .right
+            {
+                width: 50%;
+                font-size: 21px;
+            }
+
+            .info .left h1
+            { 
+                font-size: 28px;
+            }
+            
+            .info .right .ico
+            {
+                width: 6%; 
+                display: inline-block; 
+                margin-top: 65px; 
+                margin-left: 25px; 
+                margin-right: 20px;
+            }
+
+            .info .right .social
+            {
+                text-align: center;
+                margin: 40px 0px 40px 0px;
+            }
+            
+        }
+        
+        @media screen and (max-width:1050px)
+        {
+            .info .left
+            {
+                width: 40%
+            }
+
+            .info .right
+            {
+                width: 50%;
+                font-size: 18px;
+            }
+
+            .info .left h1
+            { 
+                font-size: 25px;
+                margin-top: 180px;
+            }
+
+            .info .right .ico
+            {
+                width: 6%; 
+                display: inline-block; 
+                margin-top: 45px; 
+                margin-left: 25px; 
+                margin-right: 20px;
+            }
+
+            .info .right .social
+            {
+                text-align: center;
+                margin: 40px 0px 40px 0px;
+            }
+        }
+
+        @media screen and (max-width:900px)
+        {
+            .header li
+            {
+                margin-right: 30px;
+                margin-left: 30px;
+                letter-spacing: 4px;
+                font-size: 15px;
+            }
+            
+            .info .left
+            {
+                display: block;
+                width: 100%;
+            }
+
+            .info .right
+            {
+                display: block;
+                width: 95%;
+                font-size: 30px;
+                margin: auto;
+            }
+
+            .info .left h1
+            { 
+                font-size: 30px;
+                margin-top: 0px;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+
+            .info .right .ico
+            {
+                width: 6%; 
+                display: inline-block; 
+                margin-top: 45px; 
+                margin-left: 25px; 
+                margin-right: 20px;
+            }
+
+            .info .right .social
+            {
+                text-align: center;
+                margin: 40px 0px 40px 0px;
+            }
+        }
+
+        @media screen and (max-width:800px)
+        {
+            .header li
+            {
+                margin-right: 25px;
+                margin-left: 25px;
+                letter-spacing: 4px;
+                font-size: 14px;
+            }
+        }
+
+        @media screen and (max-width:750px)
+        {
+            .header ul
+            {
+                display: block;
+                position: relative;
+                top: 0;
+                right: 0;
+                text-align: center;
+            }
+
+            .header li
+            {
+                list-style: none;
+                display: block;
+                margin-bottom: 10px;
+                margin-left: 220px;
+                margin-right: 220px;
+                letter-spacing: 2px;
+                font-size: 16px;
+                padding-bottom: 10px;
+                border-bottom: 2px solid black;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+            }
+
+            .header .col-left
+            {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 30px;
+                margin-left: 0px;
+            }
+
+            .header .col-left img
+            {
+                width: 45%;
+                margin-left: 0px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .header a
+            {
+                text-decoration: none;
+                color: black;
+                padding: 12px;
+                border: none;
+            }
+
+            .header .active
+            {
+                padding: 0px;
+                border: none;
+            }
+            
+            .main h1
+            {
+                font-size: 35px;
+            }
+
+            .main span
+            {
+                margin-top:-20px;
+            }
+            
+            .info
+            {
+                margin-bottom: 60px;
+            }
+            
+            .info .right
+            {
+                font-size: 25px;
+            }
+        }
+
+        @media screen and (max-width:650px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 180px;
+                margin-right: 180px;
+                letter-spacing: 2px;
+                font-size: 13px;
+                padding-bottom: 10px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .main h1
+            {
+                font-size: 30px;
+            }
+
+            .main span
+            {
+                margin-top:-17px;
+            }
+            
+            .info .left h1
+            { 
+                font-size: 20px;
+            }
+            
+            .info .right
+            {
+                font-size: 21px;
+            }
+        }
+
+        @media screen and (max-width:550px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 150px;
+                margin-right: 150px;
+                letter-spacing: 2px;
+                font-size: 12px;
+                padding-bottom: 10px;
+            }
+
+            .main h1
+            {
+                font-size: 25px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+
+
+            .main span
+            {
+                margin-top:-15px;
+                padding: 0px 30px;
+            }
+            
+            .info .right
+            {
+                font-size: 20px;
+            }
+            
+            .info .right .ico
+            {
+                margin-top: 35px; 
+                margin-left: 15px; 
+                margin-right: 20px;
+            }
+            
+            iframe
+            {
+                height: 400px;
+            }
+        }
+        @media screen and (max-width:500px)
+        {
+            .info .right
+            {
+                font-size: 17px;
+            }
+        }
+
+        @media screen and (max-width:450px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 150px;
+                margin-right: 150px;
+                letter-spacing: 1px;
+                font-size: 10px;
+                padding-bottom: 10px;
+            }
+
+            .main h1
+            {
+                font-size: 20px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+
+            .main span
+            {
+                margin-top:-13px;
+                padding: 0px 20px;
+            }
+            
+            .info .right
+            {
+                font-size: 15px;
+            }
+            
+            .info .right .social .media
+            {
+                width: 25%;
+            }
+        }
+        
+        @media screen and (max-width:400px)
+        {
+            .header li
+            {
+                margin-left: 125px;
+                margin-right: 125px;
+            }
+            
+
+            .info .right
+            {
+                font-size: 13px;
+            }
+        }
+        
+        @media screen and (max-width:350px)
+        {
+            .header li
+            {
+                margin-left: 115px;
+                margin-right: 115px;
+            }
+
+
+            .info .right
+            {
+                font-size: 12px;
+            }
+        }
+        
+        @media screen and (max-width:325px)
+        {
+            .info .right
+            {
+                font-size: 11px;
+            }
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="col-left">
+                <img src="images/blacklogo.png" alt="logo">
+            </div>
+
+            <div class="col-right">
+                <ul>
+                    <li>
+                        <a href="index.html"> Home</a>
+                    </li>
+
+                    <li>
+                        <a href="About-us.html"> About Us</a>                                                 `
+                    </li>
+
+                    <li>
+                        <a href="Products.html"> Products</a>
+                    </li>
+
+                    <li>
+                        <a href="Contact-us.html"  class="active"> Contact Us</a>
+                    </li>
+                </ul>
+            </div>  
+            
+            <div style="clear: both;">
+                
+            </div>    
+        </div>
+
+        <div class="main">
+            <h1 class="custom-heading">
+                <span>
+                    Contact Us
+                </span>
+            </h1>
+            
+            <div class="info">
+                <div class="left">
+                    <h1>
+                        Have any Query? <br>
+                        Feel free to get in touch with us.
+                    </h1>
+                </div>
+                
+                <div class="right">
+                   <ul>
+                       <li>
+                           <img class="ico" src="images/location.png" alt="">
+                           <p>
+                               Suite #8, 2nd Floor Landmark <br>
+                               Plaza, Gulberg 5, Lahore, Pakistan
+                           </p>
+                       </li>
+                       
+                       <li>
+                           <img class="ico" src="images/phone.png" alt="">
+                           <p>
+                               +92-321-9416667, 
+                               +92-321-4601101 <br>
+                               +92-42-35791122
+                           </p>
+                       </li>
+                       
+                       <li>
+                           <img class="ico" src="images/email.png" alt="">
+                           <p>
+                               superbsteel@gmail.com 
+                           </p>
+                       </li>
+                   </ul>
+                   
+                   <div class="social">
+                       <a href="https://www.facebook.com/superbsteelintl/"><img src="images/facebook.png" class="media" alt="facebook"></a>
+                       <a href="https://www.linkedin.com/company/superb-steel-international/"><img src="images/linkedin.png" class="media" alt="linkedin"></a>
+                   </div>
+                    
+                </div>
+                
+                <div style="clear: both;">
+                    
+                </div>
+            </div>    
+                 
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.6053358344657!2d74.34459541565664!3d31.534997881364713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904ef575fdb87%3A0x50e89ba5e8d171ed!2sLandmark+Plaza!5e0!3m2!1sen!2s!4v1523343242701" width="100%" height="700px" frameborder="0" style=" -webkit-filter: grayscale(99%);filter: grayscale(99%)" allowfullscreen></iframe>
+
+        </div>
+
+    </div>
+</body>

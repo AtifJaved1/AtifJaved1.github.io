@@ -1,0 +1,1027 @@
+<head>
+    <title>
+        Superb Steel International
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <link href="css/demo-page.css" rel="stylesheet" media="all">
+    <link href="css/imagehover.css" rel="stylesheet" media="all">
+    <style>
+        /* Reset */
+
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /*---My-styles----*/
+
+    
+        
+        /*---------------------------
+        ------------header-----------
+        ---------------------------*/
+
+        .header .col-left
+        {
+            float: left;
+            width: 30%;
+            margin: 0px;
+            margin-left: 70px;
+        }
+
+        .header .col-left img
+        {
+            width: 80%;
+            margin-top: 10px;
+            margin-left: 90px;
+        }
+
+        .header .col-right
+        {
+            float: right;
+            width: 70%;
+            text-align: right;
+            margin: 0px;
+        }
+
+        .header ul
+        {
+            margin: 0px;
+            position: absolute;
+            top: 70px;
+            right: 220px;
+        }
+
+        .header li
+        {
+            list-style: none;
+            display: inline-block;
+            margin-left: 100px;
+            font-family: 'Roboto Slab', serif;
+            letter-spacing: 5px;
+        }
+
+        .header a
+        {
+            text-decoration: none;
+            color: black;
+            padding: 12px;
+            border-bottom: 2px solid black;
+            border-top: 2px solid transparent;
+            border-right:  2px solid transparent;
+            border-left:  2px solid transparent;
+        }
+
+        .header .active
+        {
+            padding: 12px;
+            border: 2px solid black;
+        }
+
+        .header
+        {
+            max-width: 1920px;
+            margin: auto;
+        }
+
+        /*---------------------------
+        ------------Main-------------
+        ---------------------------*/
+
+        .custom-heading
+        {
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            margin-bottom: 75px;
+            border-top: 2px solid #e0dddd;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+
+        .main span
+        {
+            background-color: white;
+            padding: 0px 40px;
+            margin-top:-27px;
+            display: inline-block;
+        }
+
+        .main h1
+        {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        
+        .main .products
+        {
+            text-align: center;
+            display: inline-block;
+            width: 30%;
+        }
+        
+        .main .images 
+        {
+            margin: auto;
+        }
+       
+        .row    
+        {
+            text-align: center;
+            margin: auto;
+            width: 80%;
+            box-sizing: border-box;
+            font-family: 'Roboto Slab', serif;
+        }
+        
+        .row div
+        {
+            box-sizing: border-box;
+        }
+        
+        .row img
+        {
+            width: 706px;
+            height: 600px;
+        }
+        
+        .col-md-2
+        {
+            float: left;
+            width: 25%;
+            background-color: black;
+            color: white;
+            position: relative;
+        }
+        
+        .col-md-4
+        {
+            float: left;
+            width: 48%;
+            margin-right: 1%;
+            margin-left: 1%;
+            color: white;
+            position: relative;
+            text-align: center;
+        }
+        
+        .row h1
+        {
+            position: absolute;
+            bottom: 50px;
+            width: 100%;
+            font-size: 35px;
+        }
+        
+        .row .inner-border
+        {
+            border: 2px solid white; 
+            height: 100%; 
+            padding: 25px; 
+            font-size: 30px; 
+        }
+        
+        .row figcaption
+        {
+            text-align: left;
+            padding: 25px;
+        }
+        
+        .row .bullet
+        {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .row .bullet2
+        {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .row .sub
+        {
+            font-size: 20px;
+            margin-left: 50px;
+        }
+        
+        [class^='imghvr-'], [class*=' imghvr-']
+        {
+            background-color: grey;
+        }
+
+        [class^='imghvr-reveal-']:before, [class*=' imghvr-reveal-']:before
+        {
+            background-color: black;
+        }
+        
+        [class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption,
+        [class^='imghvr-shutter-in-']:after, [class^='imghvr-shutter-in-']:before, [class*=' imghvr-shutter-in-']:after, [class*=' imghvr-shutter-in-']:before
+        {
+            background-color: black;
+        }
+        
+        [class^='imghvr-'], [class*=' imghvr-'], [class^='imghvr-']:before, [class^='imghvr-']:after, [class*=' imghvr-']:before, [class*=' imghvr-']:after, [class^='imghvr-'] *, [class*=' imghvr-'] *, [class^='imghvr-'] *:before, [class^='imghvr-'] *:after, [class*=' imghvr-'] *:before, [class*=' imghvr-'] *:after
+        {
+            transition: all 1s ease;
+        }
+        
+        @media screen and (max-width:1850px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 200px;
+            }
+
+        }
+
+        @media screen and (max-width:1800px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 190px;
+            }
+
+        }
+
+        @media screen and (max-width:1750px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 180px;
+            }
+        }
+
+        @media screen and (max-width:1700px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 170px;
+            }
+        }
+
+        @media screen and (max-width:1650px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 160px;
+            }
+
+            .main h1
+            {
+                font-size: 45px;
+            }
+
+        }
+
+        @media screen and (max-width:1600px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 150px;
+            }
+            
+            .row h1
+            {
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (max-width:1550px)
+        {
+            .header ul
+            {
+                top: 55px;
+                right: 140px;
+            }
+
+            .header li
+            {
+                margin-left: 70px;
+                letter-spacing: 5px;
+            }
+        }
+
+
+        @media screen and (max-width:1500px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 130px;
+            }
+
+            .header li
+            {
+                margin-left: 60px;
+                letter-spacing: 5px;
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (max-width:1400px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 120px;
+            }
+
+            .header li
+            {
+                margin-left: 50px;
+                letter-spacing: 5px;
+            }
+
+            .main h1
+            {
+                font-size: 40px;
+            }
+
+        }
+
+        @media screen and (max-width:1300px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 110px;
+            }
+
+            .header li
+            {
+                margin-left: 50px;
+                letter-spacing: 4px;
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (max-width:1250px)
+        {
+            .header ul
+            {
+                display: block;
+                position: relative;
+                top: 0;
+                right: 0;
+                text-align: center;
+            }
+
+            .header li
+            {
+                margin-right: 40px;
+                margin-left: 40px;
+                letter-spacing: 4px;
+                font-size: 17px;
+            }
+
+            .header .col-left
+            {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 60px;
+                margin-left: 0px;
+            }
+
+            .header .col-left img
+            {
+                width: 38%;
+                margin-left: 0px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 60px;
+            }
+            
+            .row img
+            {
+                width: 706px;
+                height: 600px;
+            }
+
+            .col-md-2
+            {
+                float: left;
+                width:45%;
+                background-color: black;
+                color: white;
+                position: relative;
+                margin-left: 32px;
+            }
+
+            .col-md-4
+            {
+                float: none;
+                width: 100%;
+                color: white;
+                position: absolute;
+                left: 1px;
+                top: 1080px;
+                margin-bottom: 60px;
+            }
+
+            .row h1
+            {
+                position: absolute;
+                bottom: 50px;
+                width: 100%;
+                font-size: 35px;
+            }
+
+            .row .inner-border
+            {
+                border: 2px solid white; 
+                height: 100%; 
+                padding: 25px; 
+                font-size: 30px; 
+            }
+
+            .row figcaption
+            {
+                text-align: left;
+                padding: 25px;
+            }
+
+            .row .bullet
+            {
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+
+            .row .bullet2
+            {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+
+            .row .sub
+            {
+                font-size: 20px;
+                margin-left: 50px;
+            }
+        }
+        
+        @media screen and (max-width:937px)
+        {
+            .col-md-2
+            {
+                float: none;
+                width: 70%;
+                background-color: white;
+                color: white;
+                position: relative;
+                margin-left: 0px;
+                margin: auto;
+                margin-bottom: 30px;
+            }
+
+            .col-md-4
+            {
+                float: none;
+                width: 70%;
+                color: white;
+                position: relative;
+                top: 0px;
+                left: 0px;
+                margin-left: 0px;
+                margin-bottom: 0px;
+                margin: auto;
+                margin-bottom: 30px;
+            }
+            
+            .row img
+            {
+                width: 606px;
+                height: 450px;
+            }
+            
+            .row .inner-border
+            {
+                border: 2px solid white; 
+                height: 100%; 
+                padding: 25px; 
+                font-size: 30px; 
+            }
+
+            .row figcaption
+            {
+                text-align: left;
+                padding: 25px;
+            }
+
+            .row .bullet
+            {
+                margin-bottom: 10px;
+                font-size: 20px;
+            }
+
+            .row .bullet2
+            {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 20px;
+            }
+
+            .row .sub
+            {
+                font-size: 16px;
+                margin-left: 40px;
+            }
+        }
+
+        @media screen and (max-width:900px)
+        {
+            .header li
+            {
+                margin-right: 30px;
+                margin-left: 30px;
+                letter-spacing: 4px;
+                font-size: 15px;
+            }
+        }
+        
+        @media screen and (max-width:850px)
+        {
+            .row img
+            {
+                width: 506px;
+                height: 400px;
+            }
+            
+            .col-md-2
+            {
+                float: none;
+                width: 100%;
+                background-color: white;
+                color: white;
+                position: relative;
+                margin-left: 0px;
+                margin: auto;
+                margin-bottom: 30px;
+            }
+
+            .col-md-4
+            {
+                float: none;
+                width: 100%;
+                color: white;
+                position: relative;
+                top: 0px;
+                left: 0px;
+                margin-left: 0px;
+                margin-bottom: 0px;
+                margin: auto;
+                margin-bottom: 30px;
+            }
+            
+            .row .inner-border
+            {
+                border: 2px solid white; 
+                height: 100%; 
+                padding: 15px; 
+                font-size: 30px; 
+            }
+
+            .row figcaption
+            {
+                text-align: left;
+                padding: 15px;
+            }
+
+            .row .bullet
+            {
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+
+            .row .bullet2
+            {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+
+            .row .sub
+            {
+                font-size: 14px;
+                margin-left: 40px;
+            }
+        }
+
+        @media screen and (max-width:800px)
+        {
+            .header li
+            {
+                margin-right: 25px;
+                margin-left: 25px;
+                letter-spacing: 4px;
+                font-size: 14px;
+            }
+        }
+
+        @media screen and (max-width:750px)
+        {
+            .header ul
+            {
+                display: block;
+                position: relative;
+                top: 0;
+                right: 0;
+                text-align: center;
+            }
+
+            .header li
+            {
+                list-style: none;
+                display: block;
+                margin-bottom: 10px;
+                margin-left: 220px;
+                margin-right: 220px;
+                letter-spacing: 2px;
+                font-size: 16px;
+                padding-bottom: 10px;
+                border-bottom: 2px solid black;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+            }
+
+            .header .col-left
+            {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 30px;
+                margin-left: 0px;
+            }
+
+            .header .col-left img
+            {
+                width: 45%;
+                margin-left: 0px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .header a
+            {
+                text-decoration: none;
+                color: black;
+                padding: 12px;
+                border: none;
+            }
+
+            .header .active
+            {
+                padding: 0px;
+                border: none;
+            }
+
+            .main h1
+            {
+                font-size: 35px;
+            }
+
+            .main span
+            {
+                margin-top:-20px;
+            }
+        }
+
+        @media screen and (max-width:650px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 180px;
+                margin-right: 180px;
+                letter-spacing: 2px;
+                font-size: 14px;
+                padding-bottom: 10px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .main h1
+            {
+                font-size: 30px;
+            }
+
+            .main span
+            {
+                margin-top:-17px;
+            }
+        }
+
+        @media screen and (max-width:550px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 150px;
+                margin-right: 150px;
+                letter-spacing: 2px;
+                font-size: 12px;
+                padding-bottom: 10px;
+            }
+
+            .main h1
+            {
+                font-size: 25px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+
+
+            .main span
+            {
+                margin-top:-15px;
+                padding: 0px 30px;
+            }
+            
+            .row h1
+            {
+                top: 300px !important;
+            }
+        }
+
+        @media screen and (max-width:450px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 150px;
+                margin-right: 150px;
+                letter-spacing: 1px;
+                font-size: 10px;
+                padding-bottom: 10px;
+            }
+
+            .main h1
+            {
+                font-size: 20px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+
+            .main span
+            {
+                margin-top:-13px;
+                padding: 0px 20px;
+            }
+            
+            .row img
+            {
+                width: 506px;
+                height: 340px;
+            }
+            
+            .row .inner-border
+            {
+                border: 2px solid white; 
+                height: 100%; 
+                padding: 10px;
+            }
+
+            .row figcaption
+            {
+                text-align: left;
+                padding: 10px;
+            }
+
+            .row .bullet
+            {
+                margin-bottom: 8px;
+                font-size: 17px;
+            }
+
+            .row .bullet2
+            {
+                margin-top: 8px;
+                margin-bottom: 8px;
+                font-size: 17px;
+            }
+
+            .row .sub
+            {
+                font-size: 13px;
+                margin-left: 30px;
+            }
+            
+            .row h1
+            {
+                top: 250px !important;
+            }
+        }
+        
+        @media screen and (max-width:400px)
+        {
+            .header li
+            {
+                margin-left: 125px;
+                margin-right: 125px;
+            }  
+            
+            .row .sub
+            {
+                font-size: 12px;
+                margin-left: 30px;
+            }
+        }
+        
+        @media screen and (max-width:350px)
+        {
+            .header li
+            {
+                margin-left: 115px;
+                margin-right: 115px;
+            }
+
+
+            .info .right
+            {
+                font-size: 11px;
+            }
+            
+            .row .sub
+            {
+                font-size: 11px;
+                margin-left: 30px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="col-left">
+                <img src="images/blacklogo.png" alt="logo">
+            </div>
+
+            <div class="col-right">
+                <ul>
+                    <li>
+                        <a href="index.html"> Home</a>
+                    </li>
+
+                    <li>
+                        <a href="About-us.html"> About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="Products.html"  class="active"> Products</a>
+                    </li>
+
+                    <li>
+                        <a href="Contact-us.html"> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div style="clear: both;">
+                
+            </div>        
+        </div>
+
+        <div class="main">
+            <h1 class="custom-heading">
+                <span>
+                    Products
+                </span>
+            </h1>
+            
+            <div class="row">
+                <div class="col-md-2">
+                    <figure class="imghvr-reveal-right"><img src="images/flatproduct.jpg" alt="example-image">
+                       <h1>Flat Products</h1>
+                        <figcaption>
+                            <div class="inner-border">
+                                <p class="bullet">&bull; Wire Rod</p>
+                                <p class="bullet">&bull; Slab</p>
+                                <p class="bullet">&bull; Plates</p>
+                            </div>
+                        </figcaption><a href="javascript:;"></a>
+                    </figure>
+                </div>
+                
+                <div class="col-md-4">
+                    <figure class="imghvr-shutter-in-vert"><img src="images/FlatRolledProducts.jpg" alt="example-image">
+                        <h1>Flat Rolled Products</h1>
+                        <figcaption>
+                            <div class="inner-border">
+                                <p class="bullet">&bull; Hot Rolled</p>
+                                <p class="sub">Hot Rolled Black &amp; Pick/Oiled Coils</p>
+                                <p class="sub">Hot Rolled Strip Coils &amp; Chequered HRC</p>
+
+                                <p class="bullet2">&bull; Cold Rolled</p>
+                                <p class="sub">Cold Rolled Soft And Hard Coils</p>
+                                <p class="sub">Cold Rolled Strips &amp; Sheet</p>
+
+                                <p class="bullet2">&bull; Coated Coils</p>
+                                <p class="sub">Hot Dipped Galvanized Coil</p>
+                                <p class="sub">Galvanneald Coil</p>
+                                <p class="sub">Galvalume Coil</p>
+                                <p class="sub">Electro-Galvanized Coil</p>
+                                <p class="sub">Pre-Painted Galvanized</p>
+                                <p class="sub">Aluzinc Coil</p>
+
+                                <p class="bullet2">&bull; Tin Mill</p>
+                                <p class="sub">Tinplate Coils &amp; Sheets</p>
+                                <p class="sub">Tinplate Slit Coil</p>
+                                <p class="sub">Tin Mill Black Plate</p>
+                            </div>
+                        </figcaption><a href="javascript:;"></a>
+                    </figure>
+                </div>
+                
+                <div class="col-md-2">
+                    <figure class="imghvr-reveal-left"><img src="images/scrap.jpg" alt="example-image">
+                        <h1>Scrap</h1>
+                        <figcaption>
+                            <div class="inner-border">
+                                <p class="bullet">&bull; Re-Rollable Scrap</p>
+                                <p class="sub">Cobble
+                                <p class="sub">Billets</p>
+                                <p class="sub">Bloom</p>
+                                <p class="sub">Api Strips</p>
+                                <p class="sub">Used Rail</p>  
+
+                                <p class="bullet2">&bull; Re-Melting Scrap</p>    
+                                <p class="sub">HMS 1&amp;2</p>  
+                                <p class="sub">Shredded Scrap ISRI 211</p>
+                                <p class="sub">TinBundle</p>
+                            </div>
+                        </figcaption><a href="javascript:;"></a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>

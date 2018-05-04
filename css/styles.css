@@ -1,0 +1,162 @@
+/* Reset */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*---My-styles----*/
+
+/*---------------------------
+------------main-------------
+---------------------------*/
+
+.main  
+{
+    background-image: url(pexels-photo-753331.jpg);
+    height: 100vh;
+}
+
+/*---------------------------
+------------header-----------
+---------------------------*/
+
+.header
+{
+    position: fixed;
+}
+
+.header .col-left
+{
+    display: inline-block;
+    width: 30%;
+    margin: 0px;
+    margin-left: 70px;
+}
+
+.header .col-left img
+{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.header .col-right
+{
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+    margin: 0px;
+}
+
+.header ul
+{
+    margin: 0px;
+    position: absolute;
+    top: 70px;
+    right: 220px;
+}
+
+.header li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+
+.header a
+{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border-bottom: 2px solid white;
+    
+}
+
+.header .active
+{
+    padding: 12px;
+    border: 2px solid white;
+}
+
+.header
+{
+    max-width: 1920px;
+    margin: auto;
+}
+
+/*---------------------------
+------------About-us---------
+---------------------------*/
+
+.about-us
+{
+    margin-top: 50px;
+}
+
+.custom-heading
+{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: 75px;
+    border-top: 2px solid #e0dddd;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us span
+{
+    background-color: white;
+    padding: 0px 40px;
+    margin-top:-17px;
+    display: inline-block;
+}
+
+.about-us h1
+{
+    font-size: 30px;
+    c
+}

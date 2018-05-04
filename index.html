@@ -1,0 +1,720 @@
+<head>
+    <title>
+        Superb Steel International
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <style>
+        /* Reset */
+
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /*---My-styles----*/
+
+        /*---------------------------
+        ---------container-----------
+        ---------------------------*/
+        
+        
+        /*---------------------------
+        ------------header-----------
+        ---------------------------*/
+
+
+        .header .col-left
+        {
+            float: left;
+            width: 30%;
+            margin: 0px;
+            margin-left: 70px;
+        }
+
+        .header .col-left img
+        {
+            width: 80%;
+            margin-top: 10px;
+            margin-left: 90px;
+        }
+
+        .header .col-right
+        {
+            float: right;
+            width: 70%;
+            text-align: right;
+            margin: 0px;
+        }
+
+        .header ul
+        {
+            margin: 0px;
+            position: absolute;
+            top: 70px;
+            right: 220px;
+        }
+
+        .header li
+        {
+            list-style: none;
+            display: inline-block;
+            margin-left: 100px;
+            font-family: 'Roboto Slab', serif;
+            letter-spacing: 5px;
+        }
+
+        .header a
+        {
+            text-decoration: none;
+            color: white;
+            padding: 12px;
+            border-bottom: 2px solid white;
+            border-top: 2px solid transparent;
+            border-right:  2px solid transparent;
+            border-left:  2px solid transparent;
+        }
+
+        .header .active
+        {
+            padding: 12px;
+            border: 2px solid white;
+        }
+
+        .header
+        {
+            width: 100%;
+            margin: auto;
+            z-index: 10;
+            position: relative;
+        }
+        
+        .mob-container
+        {
+            display: none;
+        }
+
+        /*---------------------------
+        ------------About-us---------
+        ---------------------------*/
+        
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+
+        /* Slideshow container */
+        .slideshow-container {
+            top: 0px;
+            width: 100%;
+            position: fixed;
+            margin: auto;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 2.5s;
+            animation-name: fade;
+            animation-duration: 2.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+        }
+
+        @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .prev, .next,.text {font-size: 11px}
+        }
+        
+        
+        @media screen and (max-width:1850px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 200px;
+            }
+
+        }
+
+        @media screen and (max-width:1800px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 190px;
+            }
+
+        }
+
+        @media screen and (max-width:1750px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 180px;
+            }
+        }
+
+        @media screen and (max-width:1700px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 170px;
+            }
+        }
+
+        @media screen and (max-width:1650px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 160px;
+            }
+
+            .main h1
+            {
+                font-size: 45px;
+            }
+
+        }
+
+        @media screen and (max-width:1600px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 150px;
+            }
+        }
+
+        @media screen and (max-width:1550px)
+        {
+            .header ul
+            {
+                top: 55px;
+                right: 140px;
+            }
+
+            .header li
+            {
+                margin-left: 70px;
+                letter-spacing: 5px;
+            }
+        }
+
+
+        @media screen and (max-width:1500px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 130px;
+            }
+
+            .header li
+            {
+                margin-left: 60px;
+                letter-spacing: 5px;
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (max-width:1400px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 120px;
+            }
+
+            .header li
+            {
+                margin-left: 50px;
+                letter-spacing: 5px;
+            }
+
+            .main h1
+            {
+                font-size: 40px;
+            }
+
+        }
+
+        @media screen and (max-width:1300px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 110px;
+            }
+
+            .header li
+            {
+                margin-left: 50px;
+                letter-spacing: 4px;
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (max-width:1250px)
+        {
+            body
+            {
+                background-image: url(images/home.jpg);
+            }
+            
+            .header ul
+            {
+                display: block;
+                position: relative;
+                top: 0;
+                right: 0;
+                text-align: center;
+            }
+
+            .header li
+            {
+                margin-right: 40px;
+                margin-left: 40px;
+                letter-spacing: 4px;
+                font-size: 17px;
+            }
+
+            .header .col-left
+            {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 60px;
+                margin-left: 0px;
+            }
+
+            .header .col-left img
+            {
+                width: 38%;
+                margin-left: 0px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 70px;
+            }
+            
+            .slideshow-container {
+                top: 0px;
+                width: 100%;
+                position: relative;
+                margin: auto;
+            }
+        }
+
+        @media screen and (max-width:900px)
+        {
+            .header li
+            {
+                margin-right: 30px;
+                margin-left: 30px;
+                letter-spacing: 4px;
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (max-width:800px)
+        {
+            .header li
+            {
+                margin-right: 25px;
+                margin-left: 25px;
+                letter-spacing: 4px;
+                font-size: 14px;
+            }
+        }
+
+        @media screen and (max-width:750px)
+        {
+            .header ul
+            {
+                display: block;
+                position: relative;
+                top: 0;
+                right: 0;
+                text-align: center;
+            }
+
+            .header li
+            {
+                list-style: none;
+                display: block;
+                margin-bottom: 10px;
+                margin-left: 220px;
+                margin-right: 220px;
+                letter-spacing: 2px;
+                font-size: 16px;
+                padding-bottom: 10px;
+                border-bottom: 2px solid white;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+            }
+
+            .header .col-left
+            {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 30px;
+                margin-left: 0px;
+            }
+
+            .header .col-left img
+            {
+                width: 45%;
+                margin-left: 0px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 50px;
+            }
+
+            .header a
+            {
+                text-decoration: none;
+                color: white;
+                padding: 12px;
+                border: none;
+            }
+
+            .header .active
+            {
+                padding: 0px;
+                border: none;
+            }
+
+            .main h1
+            {
+                font-size: 35px;
+            }
+
+            .main span
+            {
+                margin-top:-20px;
+            }
+            
+            .mob-container
+            {
+                display: block;
+            }
+            
+            .mob-container div
+            {
+                border-top: 3px solid white;
+            }
+            
+            .slideshow-container
+            {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width:650px)
+        {
+            .header .col-right
+            {
+                padding-bottom: 50px;
+            }
+            
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 180px;
+                margin-right: 180px;
+                letter-spacing: 2px;
+                font-size: 14px;
+                padding-bottom: 10px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .main h1
+            {
+                font-size: 30px;
+            }
+
+            .main span
+            {
+                margin-top:-17px;
+            }
+        }
+
+        @media screen and (max-width:550px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 150px;
+                margin-right: 150px;
+                letter-spacing: 2px;
+                font-size: 12px;
+                padding-bottom: 10px;
+            }
+
+            .main h1
+            {
+                font-size: 25px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+
+
+            .main span
+            {
+                margin-top:-15px;
+                padding: 0px 30px;
+            }
+        }
+
+        @media screen and (max-width:450px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 150px;
+                margin-right: 150px;
+                letter-spacing: 1px;
+                font-size: 10px;
+                padding-bottom: 10px;
+            }
+
+            .main h1
+            {
+                font-size: 20px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+
+            .main span
+            {
+                margin-top:-13px;
+                padding: 0px 20px;
+            }
+        }
+        
+        @media screen and (max-width:400px)
+        {
+            .header li
+            {
+                margin-left: 125px;
+                margin-right: 125px;
+            }
+        }
+        
+        @media screen and (max-width:350px)
+        {
+            .header li
+            {
+                margin-left: 115px;
+                margin-right: 115px;
+            }
+
+
+            .info .right
+            {
+                font-size: 11px;
+            }
+        }
+    </style>
+    
+</head>
+
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="col-left">
+                <img src="images/logo.png" alt="logo">
+            </div>
+
+            <div class="col-right">
+                <ul>
+                    <li>
+                        <a href="index.html" class="active"> Home</a>
+                    </li>
+
+                    <li>
+                        <a href="About-us.html"> About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="Products.html"> Products</a>
+                    </li>
+
+                    <li>
+                        <a href="Contact-us.html"> Contact Us</a>
+                    </li>
+                </ul>
+            </div> 
+            
+               <div style="clear: both;">
+                   
+               </div>   
+        </div>
+        
+        <div class="slideshow-container">
+           
+            <div class="mySlides fade">
+
+                <img src="images/image00.jpg" style="width:100%">
+
+            </div>
+            
+            <div class="mySlides fade">
+
+                <img src="images/STRIP%20-%20Copy.jpg" style="width:100%">
+
+            </div>
+              
+               <div class="mySlides fade">
+                
+                   <img src="images/COLD%20COIL%204%20-%20Copy.jpg" style="width:100%">
+                
+            </div>
+
+            <div class="mySlides fade">
+                
+                <img src="images/galvanized.jpg" style="width:100%">
+                
+            </div>
+
+            <div class="mySlides fade">
+                
+                <img src="images/image22.jpg" style="width:100%">
+                
+            </div>
+               
+            <div class="mySlides fade">
+
+                <img src="images/CHECK.jpg" style="width:100%">
+
+            </div>
+               
+            <div class="mySlides fade">
+
+                <img src="images/image11.jpg" style="width:100%">
+
+            </div>
+                
+            </div>
+            
+        <div class="mob-container">
+            <div>
+                <img src="images/image00.jpg" style="width:100%">
+            </div>
+            
+            <div>
+                <img src="images/STRIP%20-%20Copy.jpg" style="width:100%">
+            </div>
+            
+            <div>
+                <img src="images/COLD%20COIL%204%20-%20Copy.jpg" style="width:100%">
+            </div>
+            
+            <div>
+                <img src="images/galvanized.jpg" style="width:100%">
+            </div>
+            
+            <div>
+                <img src="images/image22.jpg" style="width:100%">
+            </div>
+            
+            <div>
+                <img src="images/CHECK.jpg" style="width:100%">
+            </div>
+            
+            <div>
+                <img src="images/image11.jpg" style="width:100%">
+            </div>
+        </div>    
+
+
+        </div>
+        
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 5000); // Change image every 2 seconds
+            }
+            
+        </script>
+
+</body>

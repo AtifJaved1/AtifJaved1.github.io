@@ -1,0 +1,649 @@
+<head>
+    <title>
+        Superb Steel International
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <style>
+        /* Reset */
+
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /*---My-styles----*/
+
+        
+        /*---------------------------
+        ------------header-----------
+        ---------------------------*/
+        
+        
+        .header .col-left
+        {
+            float: left;
+            width: 30%;
+            margin: 0px;
+            margin-left: 70px;
+        }
+
+        .header .col-left img
+        {
+            width: 80%;
+            margin-top: 10px;
+            margin-left: 90px;
+        }
+
+        .header .col-right
+        {
+            float: right;
+            width: 70%;
+            text-align: right;
+            margin: 0px;
+        }
+
+        .header ul
+        {
+            margin: 0px;
+            position: absolute;
+            top: 70px;
+            right: 220px;
+        }
+
+        .header li
+        {
+            list-style: none;
+            display: inline-block;
+            margin-left: 100px;
+            font-family: 'Roboto Slab', serif;
+            letter-spacing: 5px;
+        }
+
+        .header a
+        {
+            text-decoration: none;
+            color: black;
+            padding: 12px;
+            border-bottom: 2px solid black;
+            border-top: 2px solid transparent;
+            border-right:  2px solid transparent;
+            border-left:  2px solid transparent;
+        }
+
+        .header .active
+        {
+            padding: 12px;
+            border: 2px solid black;
+        }
+
+        .header
+        {
+            max-width: 1920px;
+            margin: auto;
+        }
+
+        /*---------------------------
+        ------------Main-------------
+        ---------------------------*/
+
+        .custom-heading
+        {
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            margin-bottom: 75px;
+            border-top: 2px solid #e0dddd;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+
+        .main span
+        {
+            background-color: white;
+            padding: 0px 40px;
+            margin-top:-27px;
+            display: inline-block;
+        }
+
+        .main h1
+        {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        
+        .main p
+        {
+            font-family: 'Roboto Slab', serif;
+            text-align: left;
+            width: 80%;
+            margin: auto;
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 40px;
+        }
+        
+        
+        @media screen and (max-width:1850px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 200px;
+            }
+            
+        }
+        
+        @media screen and (max-width:1800px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 190px;
+            }
+
+        }
+        
+        @media screen and (max-width:1750px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 180px;
+            }
+        }
+        
+        @media screen and (max-width:1700px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 170px;
+            }
+        }
+        
+        @media screen and (max-width:1650px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 160px;
+            }
+            
+            .main h1
+            {
+                font-size: 45px;
+            }
+            
+            .main p
+            {
+                font-size: 20px;
+            }
+        }
+        
+        @media screen and (max-width:1600px)
+        {
+            .header ul
+            {
+                top: 70px;
+                right: 150px;
+            }
+        }
+        
+        @media screen and (max-width:1550px)
+        {
+            .header ul
+            {
+                top: 55px;
+                right: 140px;
+            }
+            
+            .header li
+            {
+                margin-left: 70px;
+                letter-spacing: 5px;
+            }
+        }
+    
+        
+        @media screen and (max-width:1500px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 130px;
+            }
+            
+            .header li
+            {
+                margin-left: 60px;
+                letter-spacing: 5px;
+                font-size: 15px;
+            }
+        }
+        
+        @media screen and (max-width:1400px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 120px;
+            }
+
+            .header li
+            {
+                margin-left: 50px;
+                letter-spacing: 5px;
+            }
+            
+            .main h1
+            {
+                font-size: 40px;
+            }
+            
+            .main p
+            {
+                font-size: 18px;
+            }
+        }
+        
+        @media screen and (max-width:1300px)
+        {
+            .header ul
+            {
+                top: 50px;
+                right: 110px;
+            }
+
+            .header li
+            {
+                margin-left: 50px;
+                letter-spacing: 4px;
+                font-size: 15px;
+            }
+        }
+        
+        @media screen and (max-width:1250px)
+        {
+            .header ul
+            {
+                display: block;
+                position: relative;
+                top: 0;
+                right: 0;
+                text-align: center;
+            }
+
+            .header li
+            {
+                margin-right: 40px;
+                margin-left: 40px;
+                letter-spacing: 4px;
+                font-size: 17px;
+            }
+            
+            .header .col-left
+            {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 60px;
+                margin-left: 0px;
+            }
+
+            .header .col-left img
+            {
+                width: 38%;
+                margin-left: 0px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 60px;
+            }
+        }
+        
+        @media screen and (max-width:900px)
+        {
+            .header li
+            {
+                margin-right: 30px;
+                margin-left: 30px;
+                letter-spacing: 4px;
+                font-size: 15px;
+            }
+        }
+        
+        @media screen and (max-width:800px)
+        {
+            .header li
+            {
+                margin-right: 25px;
+                margin-left: 25px;
+                letter-spacing: 4px;
+                font-size: 14px;
+            }
+        }
+        
+        @media screen and (max-width:750px)
+        {
+            .header ul
+            {
+                display: block;
+                position: relative;
+                top: 0;
+                right: 0;
+                text-align: center;
+            }
+
+            .header li
+            {
+                list-style: none;
+                display: block;
+                margin-bottom: 10px;
+                margin-left: 220px;
+                margin-right: 220px;
+                letter-spacing: 2px;
+                font-size: 16px;
+                padding-bottom: 10px;
+                border-bottom: 2px solid black;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+            }
+
+            .header .col-left
+            {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 30px;
+                margin-left: 0px;
+            }
+
+            .header .col-left img
+            {
+                width: 45%;
+                margin-left: 0px;
+            }
+
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            
+            .header a
+            {
+                text-decoration: none;
+                color: black;
+                padding: 12px;
+                border: none;
+            }
+            
+            .header .active
+            {
+                padding: 0px;
+                border: none;
+            }
+            
+            .main h1
+            {
+                font-size: 35px;
+            }
+
+            .main p
+            {
+                font-size: 15px;
+            }
+            
+            .main span
+            {
+                margin-top:-20px;
+            }
+        }
+        
+        @media screen and (max-width:650px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 180px;
+                margin-right: 180px;
+                letter-spacing: 2px;
+                font-size: 14px;
+                padding-bottom: 10px;
+            }
+            
+            .header .col-right
+            {
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            
+            .main h1
+            {
+                font-size: 30px;
+            }
+
+            .main p
+            {
+                font-size: 13px;
+            }
+            
+            .main span
+            {
+                margin-top:-17px;
+            }
+        }
+        
+        @media screen and (max-width:550px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 150px;
+                margin-right: 150px;
+                letter-spacing: 2px;
+                font-size: 12px;
+                padding-bottom: 10px;
+            }
+            
+            .main h1
+            {
+                font-size: 25px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+
+            .main p
+            {
+                font-size: 12px;
+                margin-bottom: 20px;
+                line-height: 20px;
+            }
+
+            .main span
+            {
+                margin-top:-15px;
+                padding: 0px 30px;
+            }
+        }
+        
+        @media screen and (max-width:450px)
+        {
+            .header li
+            {
+                margin-bottom: 10px;
+                margin-left: 150px;
+                margin-right: 150px;
+                letter-spacing: 1px;
+                font-size: 10px;
+                padding-bottom: 10px;
+            }
+            
+            .main h1
+            {
+                font-size: 20px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+
+            .main p
+            {
+                font-size: 11px;
+                margin-bottom: 20px;
+                line-height: 20px;
+            }
+
+            .main span
+            {
+                margin-top:-13px;
+                padding: 0px 20px;
+            }
+        }
+        
+        @media screen and (max-width:400px)
+        {
+            .header li
+            {
+                margin-left: 125px;
+                margin-right: 125px;
+            }
+        }
+        
+        @media screen and (max-width:350px)
+        {
+            .header li
+            {
+                margin-left: 115px;
+                margin-right: 115px;
+            }
+
+
+            .info .right
+            {
+                font-size: 11px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="col-left">
+                <img src="images/blacklogo.png" alt="logo">
+            </div>
+
+            <div class="col-right">
+                <ul>
+                    <li>
+                        <a href="index.html"> Home</a>
+                    </li>
+
+                    <li>
+                        <a href="About-us.html" class="active"> About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="Products.html"> Products</a>
+                    </li>
+
+                    <li>
+                        <a href="Contact-us.html"> Contact Us</a>
+                    </li>
+                </ul>
+            </div>   
+            
+            <div style="clear: both;">
+                
+            </div>  
+        </div>
+        
+        <div class="main">
+            <h1 class="custom-heading">
+                <span>
+                    About Us
+                </span>
+            </h1>
+            
+            <p>
+                A brief to ourselves, we are dealing in steel business since 1978 and fulfilling demands of local market & other steel fabricating units, vendors, end users, consumers in government and private sectors.<br>
+            </p>
+
+            <p>           
+                We are your gateway to export steel to pakistan as our company is situated in &#39;punjab province&#39; where 80% of the total import to pakistan is consumed. <br>
+            </p>    
+
+            <p>
+                Working with principles based on honesty and with full swing determined efforts in steel market we keep gaining trust and reliability among our customers for last four decades. <br>
+            </p>
+
+            <p>
+                Further much pleased to inform you that our import tonnage rang is more than &#39;five figures&#39; annually, speaks itself about our authenticity and capability to fulfill buyers demand. <br>
+            </p>
+
+            <p>           
+                We have welded our reputation like iron and steel in the international market and we have obtained global recognition. We look to move on a pave towards fruitful business relations benefited both the parties by sale promotion of your steel products and you may occupy your share from Pakistan market as here to serve you to your entire satisfaction!! <br>
+            </p>    
+
+            <p>    
+                Come and join hand with us as we always welcome honest and authentic sources in abroad whom can supply us with wide range of quality products at market competitive prices.<br>
+            </p>
+
+               
+        </div>
+        
+        <div>
+            
+        </div>
+        
+    </div>
+</body>
